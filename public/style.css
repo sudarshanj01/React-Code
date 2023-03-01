@@ -1,0 +1,154 @@
+/* body{
+    margin: 0;
+    margin-left: 15vw;
+}
+
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.nav-img {
+    width: 100px;
+    margin-left: 20px;
+    height: 100px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color:#21222A;
+    padding: 20px 35px;
+    width: 70vw;
+}
+.navbar >h1,.navbar >h2{
+    margin-left: 20px;
+    color: aliceblue;
+}
+
+.navbar >h1{
+    color: #61dafb;
+    font-size: xx-large;
+
+}
+
+.navbar >h2{
+    font-size: xx-large;
+    margin-right: auto;
+   
+}
+
+
+main {
+    padding: 57px 27px;
+    color: white;
+    background-color: #3c3e47;
+    width: 70vw;
+    background-image: url("./4691292_react\ native_react_icon.png");
+    background-repeat: no-repeat;
+    background-position: right 100%;
+    background-size: contain;
+    
+}
+
+.main--title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.main--facts {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main--facts > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.main--title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+    font-size:40px;
+}
+
+.main--facts {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main--facts > li {
+    line-height: 19px;
+    padding-block: 10px;
+    font-size: 20px;
+    
+}
+
+.main--facts > li::marker{
+    color: #61dafb;
+    font-size: 1.4rem;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background-color: whitesmoke;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.contact-card {
+    flex-basis: 225px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.contact-card > img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.contact-card > h3 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.info-group {
+    display: flex;
+    align-items: center;
+}
+
+.info-group > img {
+    height: 11px;
+    margin-right: 8px;
+}
+
+.info-group > p {
+    margin-block: 3px;
+    font-size: 12px;
+    color: #2B283A;
+} */

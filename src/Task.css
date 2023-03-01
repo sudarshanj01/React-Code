@@ -1,0 +1,38 @@
+.task-container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+   
+  }
+  
+  .task-add-button {
+    margin-left: 10px;
+  }
+  
+  .task-edit-button {
+    color: blue;
+    text-decoration: underline;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .task-save-button {
+    margin-left: 10px;
+    background-color: blanchedalmond;
+  }
+  
+  .task-table {
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .task-table th,
+  .task-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .task-table th {
+    background-color: #eee;
+  }
+  
