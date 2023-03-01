@@ -6,7 +6,7 @@ import React from "react";
 
     const handlechange = (event) => {
         setMessage(event.target.value);
-        console.log(message);
+       
       };
 
   return (
