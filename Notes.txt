@@ -1,0 +1,6 @@
+useEffect:-
+it is  use to control what happening in which stage of component life cycle.
+
+
+rfc -shortcut for functional component
+

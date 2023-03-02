@@ -13,7 +13,10 @@ function Task() {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (editIndex > -1) {
-      setNames([...names.slice(0, editIndex), newName, ...names.slice(editIndex + 1)]);
+     // setNames([...names.slice(0, editIndex), newName, ...names.slice(editIndex + 1)]);
+      let temp=[...names]
+      temp[editIndex]=newName 
+      setNames(temp)
     } else {
       setNames([...names, newName]);
     }

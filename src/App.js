@@ -1,20 +1,23 @@
 import React from "react";
+import CrudOpeartions from "./Codekul/CrudOpeartions";
+
 // import DisplayData from "./Codekul/DisplayData";
 // import ComponentLifeCycle from "./Codekul/ComponentsLifeCycle";
 // import UseEffect from "./Codekul/UseEffect";
 // import ApiCall from "./Codekul/ApiCall";
 // import CallBackEvents from "./Codekul/CallBackEvents";
-import Task from "./Task";
+// import Task from "./Task";
+
 
 
 function App() {
   return (
     <div className="App">
 
-     <Task/>
+    <CrudOpeartions/>
 
     </div>
-  );
+  )
 }
 
 export default App;
