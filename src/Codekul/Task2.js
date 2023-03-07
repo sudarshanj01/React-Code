@@ -2,23 +2,10 @@
 import React, { useState } from 'react'
 
 
-export default function CrudOpeartions() {
+export default function Task2() {
 
   const [FirstName, setFirstName] = useState('');
-  const [LastName, setLastName] = useState('');
-
-  const handleInput= (event) => {
-    
-    setFirstName(event.target.value);
-    console.log(FirstName);
-
-    setLastName(event.target.value);
-    console.log(LastName);
-  }
-
-    
-
-  
+  const [LastName, setLastName] = useState('');  
 
   return (
     <div>
@@ -26,15 +13,15 @@ export default function CrudOpeartions() {
 
         <div>
         <label>First name</label>
-        <input value={FirstName}></input>
+        <input onChange={(e)=> setFirstName(e.target.value)}></input>
         </div>
 
         <div>
         <label>Last name</label>
-        <input></input>
+        <input onChange={(a)=> setFirstName(a.target.value)}></input>
         </div>
 
-        <button onClick={handleInput}>Save</button>
+        <button >Save</button>
 
 
         <table>

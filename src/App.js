@@ -1,5 +1,7 @@
 import React from "react";
-import CrudOpeartions from "./Codekul/CrudOpeartions";
+import Router from "./Codekul/login_page/Router";
+// import ReactRouter from "./Codekul/React Router/ReactRouter";
+// import Task2 from "./Codekul/Task2";
 
 // import DisplayData from "./Codekul/DisplayData";
 // import ComponentLifeCycle from "./Codekul/ComponentsLifeCycle";
@@ -10,12 +12,11 @@ import CrudOpeartions from "./Codekul/CrudOpeartions";
 
 
 
+
 function App() {
   return (
     <div className="App">
-
-    <CrudOpeartions/>
-
+        <Router/>
     </div>
   )
 }
