@@ -12,7 +12,7 @@ function LoginPage() {
       password: 'password'
     },
     user3: {
-      username: 'ritesh',
+      username: 'Ram',
       password: 'password'
     }
   });
@@ -40,18 +40,18 @@ function LoginPage() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label>
-        Username:
-        <input type="text" value={username} onChange={handleUsernameChange} />
-      </label>
-      <label>
-        Password:
-        <input type="password" value={password} onChange={handlePasswordChange} />
-      </label>
-      <button type="submit">Login</button>
-    </form>
-  );
+    <div>
+        <label>UserName:</label>
+        <input type="text" value={username} onChange={handleUsernameChange}></input>
+
+        <label >password:</label>
+        <input type="password" value={password} onChange={handlePasswordChange}></input>
+        
+        <button onClick={handleSubmit}>LOGIN</button>
+
+
+    </div>
+  )
 }
 
 export default LoginPage;
