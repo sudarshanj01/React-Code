@@ -7,14 +7,12 @@ function ReactRouter(){
 
     return(
         <div>
-            <BrowserRouter>
-           
+            
+        <BrowserRouter>
             <Routes>
                 <Route index element={<LoginPage/>}/>
                 <Route path="/dashboard/:username" element={<Dashboard />} />
-
             </Routes>
-
         </BrowserRouter>
            
         </div>

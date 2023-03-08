@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 function LoginPage() {
-  const [credentials, setCredentials] = useState({
+  const [credentials] = useState({
     user1: {
       username: 'sudarshan',
       password: 'password'
@@ -13,10 +13,6 @@ function LoginPage() {
     },
     user3: {
       username: 'ritesh',
-      password: 'password'
-    },
-    user3: {
-      username: 'abhi',
       password: 'password'
     }
   });
