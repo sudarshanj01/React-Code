@@ -5,12 +5,6 @@ export default function Demo(){
     const results = [];
     if(countries.length>0){
 
-    //   countries.forEach((country, index) => {
-    //     results.push(
-    //       <div key={index}>
-    //         <p>{country}</p>        
-    //       </div>,
-
     for(let country of countries){
         results.push(
                <div>

@@ -1,3 +1,4 @@
+import { DataObject } from '@mui/icons-material';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -32,6 +33,7 @@ function LoginPage() {
   const handleSubmit = (event) => {
     event.preventDefault();
     const validUser = Object.values(credentials).find(user => user.username === username && user.password === password);
+    console.log(validUser);
     if (validUser) {
       navigate(`/dashboard/${validUser.username}`);
     } else {

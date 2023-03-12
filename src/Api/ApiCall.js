@@ -1,7 +1,7 @@
+//Api call using fetch method
 import React,{useEffect} from "react"
 function ApiCall(){
 
-    //.push and [...] ? 
 
     const[posts,setPosts]=React.useState([])
 

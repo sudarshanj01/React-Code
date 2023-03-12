@@ -3,11 +3,11 @@ import { BrowserRouter,Routes,Route } from "react-router-dom";
 import LoginPage from "./LoginPage";
 import Dashboard from "./Dashboard";
 
-function ReactRouter(){
+function Router(){
 
     return(
         <div>
-            
+          
         <BrowserRouter>
             <Routes>
                 <Route index element={<LoginPage/>}/>
@@ -19,4 +19,4 @@ function ReactRouter(){
     )
 }
 
-export default ReactRouter
+export default Router
