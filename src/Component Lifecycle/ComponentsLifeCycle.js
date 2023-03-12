@@ -2,6 +2,8 @@ import React from "react";
 import ComponentOne from "./ComponentOne";
 import ComponentTwo from "./ComponenTwo";
 
+//Component Lifecycle
+
 class ComponentLifeCycle extends React.Component {
   constructor() {
     super();

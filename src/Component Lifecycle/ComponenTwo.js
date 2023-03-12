@@ -1,5 +1,5 @@
 import React from "react";
-
+//Component Lifecycle
 export default class ComponentTwo extends React.Component{
 
     componentWillUnmount(){

@@ -1,5 +1,7 @@
 import React from "react"
+
 //state in an object
+//Component Lifecycle
 
 class ClassComponent extends React.Component{
 

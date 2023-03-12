@@ -1,4 +1,5 @@
 import React from "react";
+//Component Lifecycle
 
 export default class ComponentOne extends React.Component{
 
